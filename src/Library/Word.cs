@@ -35,7 +35,7 @@ namespace WordsPhrases
 
             set
             {
-                this.text = value;
+                this.text = value.Trim();
             }
         }
     }
